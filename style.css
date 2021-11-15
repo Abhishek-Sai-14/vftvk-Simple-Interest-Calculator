@@ -1,14 +1,19 @@
-body {background-color:black;font-family:arial;color:white}
-h1{color:grey;font-family:verdana}
+body {background-color:black;font-family:arial;color:white;}
+h1{color:grey;font-family:verdana;}
 
-.maindiv {
-    background-color:white;
-    color:black;
-    width:300px;
-    padding:20px;
-    border-radius:25px;
-    align:center
+/*align:center is no longer supported. Replaced with margin:auto;
+Width:300px is too narrow to match the project details image*/
+.maindiv{background-color: white;color:black;width:500px;padding:20px;border-radius:25px;margin:auto;}
 
-}
+/*div that aligns the span and input boxes
+Assigned Width:330px; here to closer match the project details image*/
+#formstuff{width:330px;margin:auto;}
 
+/*assigns the background color to highlight class*/
+.highlight{background-color:yellow;}
+
+/*alignment for the table*/
+.pad{padding-left:30px;}
+
+button{margin-top:15px}
 
